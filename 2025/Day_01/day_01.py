@@ -16,7 +16,7 @@ def parse_input(input_file):
     return(input_list)
 
 
-def solve1(input_list, dial_value=START_DIAL_VALUE):
+def solve_p1(input_list, dial_value=START_DIAL_VALUE):
     zeros_counter = 0
     for rotation in input_list:
         dial_value = (dial_value + rotation)%100
@@ -25,7 +25,7 @@ def solve1(input_list, dial_value=START_DIAL_VALUE):
     return(zeros_counter)
 
 
-def solve2(input_list, dial_value=START_DIAL_VALUE):
+def solve_p2(input_list, dial_value=START_DIAL_VALUE):
     zeros_counter = 0
     for rotation in input_list:
         current_rotation = dial_value + rotation
@@ -45,5 +45,5 @@ def solve2(input_list, dial_value=START_DIAL_VALUE):
 
 
 if __name__ == "__main__":
-    print(f"Result day 1 - part1: {solve1(parse_input(INPUT_FILE))}")
-    print(f"Result day 1 - part2: {solve2(parse_input(INPUT_FILE))}")
+    print(f"Result day 1 - part1: {solve_p1(parse_input(INPUT_FILE))}")
+    print(f"Result day 1 - part2: {solve_p2(parse_input(INPUT_FILE))}")
