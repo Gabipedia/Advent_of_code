@@ -8,7 +8,6 @@ from pathlib import Path
 
 START_DIAL_VALUE = 50
 INPUT_FILE = "input_d1.txt"
-input_test = "sample_d1.txt"
 
 
 def parse_input(input_file):
