@@ -10,5 +10,8 @@
 
 ## Part 2 : Strategy 
 1. Keep Part 1 rotation converson
-2. Check if the current rotation is negative or greater than 99 and increment the euclidian division to count each time the dial point 0.
-3. Check if the value equal zero to increment of 1.
+2. Check different cases :
+  - Case 1 : the rotation is negative => increment the counter by a value of 1 + euclidian quotient divided by 100.
+  - Case 2 : the rotation is greater than 100 => increment the counter by the euclidian quotient divided by 100.
+  - Case 3 : the dial point 0 => increment the counter by a value of 1.
+  - Case 4 : value between 1 and 99 => no increment.
