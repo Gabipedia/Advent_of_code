@@ -1,6 +1,6 @@
 """Tests for Day 1 : Secret Entrance"""
 import unittest
-from day_01 import parse_input, solve_p1, solve_p2
+from day_01 import parse_input, solve_part1, solve_part2
 
 SAMPLE_FILE = "sample_d1.txt"
 PART1_RES = 3
