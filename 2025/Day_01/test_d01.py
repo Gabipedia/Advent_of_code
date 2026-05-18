@@ -11,12 +11,12 @@ class TestDay01(unittest.TestCase):
 
     def test_part1_sample(self):
         data = parse_input(SAMPLE_FILE)
-        result = solve_p1(data)
+        result = solve_part1(data)
         self.assertEqual(result, PART1_RES)
 
     def test_part2_sample(self):
         data = parse_input(SAMPLE_FILE)
-        result = solve_p2(data)
+        result = solve_part2(data)
         self.assertEqual(result, PART2_RES)
 
 
