@@ -1,6 +1,6 @@
 # Day 1 : Secret Entrance
 
-[Link to puzzle]([https://www.pokebip.com/page/jeuxvideo/legendes-pokemon-z-a/guide-des-lieux/1e-arrondissement-beau-vert](https://adventofcode.com/2025/day/1))
+[Link to puzzle](https://adventofcode.com/2025/day/1)
 
 ## Part 1 : Strategy
 
